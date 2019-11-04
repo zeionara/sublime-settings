@@ -1,0 +1,7 @@
+[
+	{ "keys": ["ctrl+shift+b"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+shift+i"], "command": "reindent" },
+	{ "keys": ["ctrl+alt+enter"], "command": "replace_all", "args": {"close_panel": false},
+		 "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+	}
+]
